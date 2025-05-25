@@ -9,7 +9,6 @@ In this step, we’ll install and configure OpenSSH Server on Ubuntu Server 24.0
 - Install `openssh-server`
 - Verify the SSH service is running
 - Connect via SSH from the host
-- Optional: change default port (covered in step 03)
 
 ---
 
@@ -25,7 +24,7 @@ ip a  # get server IP
 
 ## Steps
 
-### 1.Install OpenSSH Server
+### 1. Install OpenSSH Server
 
 ```bash
 sudo apt update
@@ -34,7 +33,7 @@ sudo apt install openssh-server -y
 
 ---
 
-### 2.Check SSH Service Status
+### 2. Check SSH Service Status
 
 ```bash
 sudo systemctl status ssh
@@ -65,7 +64,7 @@ If it's active and running, we're good.
 
 ---
 
-### 3.Find Server IP Address
+### 3. Find Server IP Address
 
 ```bash
 ip a
@@ -88,7 +87,7 @@ Note the IP (in my case it's 192.168.100.220). Change yours accordingly.
 
 ---
 
-### 4.Test Access from Host Machine
+### 4. Test Access from Host Machine
 
 On your host:
 
