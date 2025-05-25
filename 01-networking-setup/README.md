@@ -1,12 +1,12 @@
 # 01 - Static IP Address Configuration
 
-## 🎯 Objective
+## Objective
 
 First, we need to configure a static IP address on Ubuntu Server 24.04.2 LTS using netplan to ensure consistent remote access and network stability within the virtual lab environment.
 
 ---
 
-## 🧰 Environment
+## Environment
 
 | Component        | Description                     |
 |------------------|---------------------------------|
@@ -17,7 +17,7 @@ First, we need to configure a static IP address on Ubuntu Server 24.04.2 LTS usi
 
 ---
 
-## 📝 Steps
+## Steps
 
 ### 1. Identify Network Interface
 
@@ -85,4 +85,12 @@ ip a
 ping -c 3 8.8.8.8
 ```
 
+---
 
+## Testing
+
+|Command     |Purpose                   |
+|------------|--------------------------|
+|ip a        |Check IP address          |
+|Ping 8.8.8.8|Test internet connectivity|
+|hostname -I |Confirm static IP         |
