@@ -8,5 +8,11 @@ By doing this properly, we will establish a secure and robust platform as a foun
 
 1. Static IP Address and Network Setup
 2. SSH Installation and Hardening
-3. Basic Firewall Setup (ufw)
-4. More steps coming soon...
+3. SSH Hardening
+4. Fire wall Setup (ufw)
+5. File Permissions
+6. Disk Management
+7. Package Management
+8. Monitor Logging
+9. User Mangement
+10. More soon...
