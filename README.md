@@ -15,4 +15,7 @@ By doing this properly, we will establish a secure and robust platform as a foun
 7. Package Management
 8. Monitor Logging
 9. User Mangement
-10. More soon...
+10. SSH Key Auth
+11. Cron Jobs
+12. Scripting
+13. Web Server
