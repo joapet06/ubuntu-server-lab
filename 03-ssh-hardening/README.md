@@ -1,4 +1,4 @@
-# 03 – SSH Hardening 🛡️
+# 03 – SSH Hardening
 
 > Secure SSH access by disabling root login, enforcing key-based auth, and changing default port.
 
